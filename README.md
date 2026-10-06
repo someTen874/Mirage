@@ -70,6 +70,15 @@
 
 ---
 
+## 反馈与交流
+
+**QQ 交流群：1092499173**
+
+装不上、连不上电脑、发现 bug、想要新功能 —— 都来群里说，这是唯一的反馈入口。
+在 QQ 里搜这个号码 → 申请加群。
+
+---
+
 ## 使用条款
 
 - **个人使用完全自由** —— 随便用、随便改、随便接你自己的模型、随便导角色卡，不用问谁。
@@ -98,3 +107,5 @@
 Compute options: your own PC over LAN (free, unlimited) / a free cloud API key / a small model on the phone itself. Character cards, chat history and memories never leave your device unless you configure a cloud backend.
 
 License: free for personal use; reselling or rebranding-and-charging is not permitted. See [LICENSE](LICENSE).
+
+Feedback and bug reports: QQ group `1092499173` (Chinese QQ messenger).
