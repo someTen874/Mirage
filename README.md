@@ -8,13 +8,20 @@
 
 ## 下载
 
-| 文件 | 给谁用 | 怎么装 |
-|---|---|---|
-| `Mirage-v3.98.apk` | 安卓手机（Android 8.0+） | 传到手机，点击安装；系统会问「允许安装未知来源应用」，同意即可 |
-| `Mirage-PC-Server-win64.zip` | 电脑（Windows 10/11 64 位） | **整个解压**，再双击里面的 `Mirage电脑服务.exe`。它自带推理引擎，会启动本机的 llama.cpp 并把局域网 IP 显示给你 |
+**① 安卓 App** —— 本仓库里的 `Mirage-v3.98.apk`（Android 8.0+）
+传到手机，点击安装；系统会问「允许安装未知来源应用」，同意即可。
+
+**② 电脑服务（Windows 10/11 64 位，40 MB）** —— **从发布页下载**：
+<https://mirage-app-pages.app.workbuddy.host/>
+
+> 为什么不在这个仓库里：40 MB 的包超过单文件上传限制，传不上去；
+> 而且 GitHub 的直链在国内又慢又常打不开，发布页是**国内直连**的。
+>
+> 下载后 **整个解压**，再双击里面的 `Mirage电脑服务.exe`。它自带推理引擎，
+> 会启动本机的 llama.cpp 并把局域网 IP 显示给你。
+> ⚠️ 解压出来的 `bin\` 文件夹必须和 exe 待在同一层，别单独把 exe 挪走。
 
 > 电脑端**不含模型文件**（`.gguf` 有几个 GB，塞不进仓库），要自己下一个 —— 见下面「电脑加速」。
-> ⚠️ 解压出来的 `bin\` 文件夹必须和 exe 待在同一层，别单独把 exe 挪走。
 
 ---
 
@@ -86,7 +93,7 @@
 **Mirage** is a bring-your-own-compute AI roleplay chat app for Android. No subscription, no credits, no character gacha — the app itself is free.
 
 - `Mirage-v3.98.apk` — the Android app
-- `Mirage-PC-Server-win64.zip` — Windows panel with a bundled llama.cpp engine (unzip first; a `.gguf` model is not bundled)
+- **Windows panel** (40 MB, bundled llama.cpp engine) — not in this repo (file-size limit); download it from <https://mirage-app-pages.app.workbuddy.host/>. Unzip first; a `.gguf` model is not bundled.
 
 Compute options: your own PC over LAN (free, unlimited) / a free cloud API key / a small model on the phone itself. Character cards, chat history and memories never leave your device unless you configure a cloud backend.
 
